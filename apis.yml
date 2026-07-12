@@ -23,6 +23,10 @@ apis:
       - type: Documentation
         url: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/ibm-text-to-speech-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/ibm-text-to-speech-domain-security.yml
   - type: Website
     url: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
   - type: PublicAPIsListing
