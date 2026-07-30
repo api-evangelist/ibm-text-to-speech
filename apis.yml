@@ -1,4 +1,16 @@
 aid: ibm-text-to-speech
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibm-text-to-speech.png
 name: IBM Text to Speech
 description: "Convert text to speech"
 url: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
