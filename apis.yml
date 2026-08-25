@@ -12,37 +12,44 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ibm-text-to-speech.png
 name: IBM Text to Speech
-description: "Convert text to speech"
+description: Convert text to speech
 url: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
 specificationVersion: '0.23'
 created: '2026-05-28'
-modified: '2026-05-28'
+modified: '2026-08-21'
 x-source: public-apis/public-apis
-x-category: "Development"
+x-category: Development
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Development
-  - Public APIs
+- Development
+- Public APIs
 apis:
-  - name: IBM Text to Speech
-    description: "Convert text to speech"
-    humanURL: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
-    baseURL: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
-    tags:
-      - Development
-    properties:
-      - type: Documentation
-        url: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
-common:
-  - type: VulnerabilityDisclosure
-    url: security/ibm-text-to-speech-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/ibm-text-to-speech-domain-security.yml
-  - type: Website
+- name: IBM Text to Speech
+  description: Convert text to speech
+  humanURL: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
+  baseURL: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
+  tags:
+  - Development
+  properties:
+  - type: Documentation
     url: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
-  - type: PublicAPIsListing
-    url: https://github.com/public-apis/public-apis
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/ibm/
+  name: Ibm
+  x-relationship: product
+  x-generated-by: ibm-family:2026-08-21
+- type: VulnerabilityDisclosure
+  url: security/ibm-text-to-speech-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/ibm-text-to-speech-domain-security.yml
+- type: Website
+  url: https://cloud.ibm.com/docs/text-to-speech/getting-started.html
+- type: PublicAPIsListing
+  url: https://github.com/public-apis/public-apis
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
+x-parent: ibm
+x-relationship: product
